@@ -20,7 +20,7 @@ This is the sending of the multisend from your json generated before
 Think about testing a small amount of address before doing large tests.
 
 ```
-node convert.js
+node multiSend.js
 ```
 
 I voluntarily commented the broadcast to avoid errors during the tests  
