@@ -71,7 +71,7 @@ const copieMultiSend = [{
 }]
 
 // View message befor broadcast
-console.log(copieMultiSend[0].value.inputs[0].coins)
+console.log(copieMultiSend)
 
 // Broadcast multiSend
 // const result = await client.signAndBroadcast(accounts[0].address, copieMultiSend, fee, '')
