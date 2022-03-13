@@ -74,6 +74,6 @@ const copieMultiSend = [{
 console.log(copieMultiSend)
 
 // Broadcast multiSend
-// const result = await client.signAndBroadcast(accounts[0].address, copieMultiSend, fee, '')
+// const result = await client.signAndBroadcast(senderWallet.address, copieMultiSend, fee, '')
 // assertIsBroadcastTxSuccess(result)
 // console.log(result)
